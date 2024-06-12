@@ -1,0 +1,28 @@
+@media (max-width:1023px) {
+    .laptopViewOnly {
+        visibility: visible;
+    }
+    body {
+        height: 100vh;
+        width: 100vw;
+        overflow: hidden;
+    }
+}
+
+@media (max-width:1275px) {
+    .catagories .catagoriesTop .catagoriesTopLeft {
+        position: relative;
+        left: -45px;
+    }
+}
+
+@media (max-width:1150px) {
+    .news .newsTop .newsTopLeft {
+        position: relative;
+        left: -70px;
+    }
+    /* .catagories .catagoriesTop .catagoriesTopLeft {
+        position: relative;
+        left: 0px;
+    } */
+}
